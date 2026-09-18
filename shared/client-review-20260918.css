@@ -48,3 +48,10 @@ body[data-layout=sop] .hero p,body[data-layout=sop] .reservation-note,body[data-
  body[data-layout=credentials] .cert-head .small{font-size:16px;letter-spacing:.5px}
  body[data-layout=credentials] .cert h3{font-size:16px}
 }
+/* Taipei hero readability: stronger cream panel, original photograph unchanged. */
+body[data-layout=locations] .copy{background:linear-gradient(110deg,rgba(255,252,248,.97),rgba(255,252,248,.94));backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,.95);box-shadow:inset 3px 0 0 #b49a85;z-index:8}
+body[data-layout=locations] .copy h1{color:#2e2a28}
+body[data-layout=locations] .copy p{color:#44382f;font-weight:600}
+body[data-layout=locations] .copy .kicker{color:#624a39;font-weight:600}
+body[data-layout=locations] .copy .key-phrase{color:#674932;background:#e9dacb}
+body[data-layout=locations] .copy .rule{background:#94745c}

@@ -26,7 +26,9 @@ body[data-layout=credentials] .cert-head .small{font-size:19px;letter-spacing:2p
 body[data-layout=credentials] .cert h3{font-family:inherit;font-size:22px;letter-spacing:0}
 body[data-layout=needs] .pain{color:#45392f}
 body[data-layout=needs] .solution{color:#594131;font-weight:600}
-body[data-layout=needs] .solution span:first-child{text-decoration:underline;text-decoration-color:#b99578;text-decoration-thickness:2px;text-underline-offset:6px;font-weight:700}
+/* Client black marks indicate bold type, not visible underlines. */
+body[data-layout=needs] .solution span{font-weight:700;text-decoration:none}
+body[data-layout=needs] .quadrant:nth-of-type(4) .solution span:last-child{font-weight:500}
 /* Face-free detail crops. Background percentages select regions of the unchanged 2×2 source. */
 body[data-layout=needs] .quadrant:nth-of-type(1):before{background-size:409.09% 409.09%;background-position:32.353% 30.392%}
 body[data-layout=needs] .quadrant:nth-of-type(2):before{background-size:346.154% 346.154%;background-position:94.531% 28.646%}

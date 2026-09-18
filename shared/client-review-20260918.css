@@ -55,3 +55,6 @@ body[data-layout=locations] .copy p{color:#44382f;font-weight:600}
 body[data-layout=locations] .copy .kicker{color:#624a39;font-weight:600}
 body[data-layout=locations] .copy .key-phrase{color:#674932;background:#e9dacb}
 body[data-layout=locations] .copy .rule{background:#94745c}
+/* User-approved pale cream overlay on the two hero photographs only. */
+body[data-layout=locations] .hero:after,
+body[data-layout=taichung] .veil{background:rgba(245,240,231,.22);pointer-events:none}

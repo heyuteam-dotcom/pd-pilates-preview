@@ -1,0 +1,6 @@
+/* Original portrait bytes retained. Only presentation crop changes. */
+body[data-layout=dual] .photo{background:#f3ebe3}
+body[data-layout=dual] .photo img{position:absolute;width:760px;height:1140px;max-width:none;left:50%;top:-190px;transform:translateX(-50%);object-fit:cover;object-position:center;filter:none;mask-image:linear-gradient(90deg,transparent,#000 10%,#000 90%,transparent)}
+body[data-layout=dual] .photo:before{mix-blend-mode:normal;background:linear-gradient(90deg,#f3ebe3 0%,rgba(243,235,227,.94) 13%,rgba(243,235,227,0) 27%,rgba(243,235,227,0) 76%,rgba(243,235,227,.95) 87%,#f3ebe3 100%)}
+body[data-layout=dual] .photo:after{background:linear-gradient(to bottom,transparent 77%,rgba(245,240,231,.94) 100%)}
+@media(max-width:760px){body[data-layout=dual] .photo img{width:100%;height:auto;top:-55px;mask-image:none}body[data-layout=dual] .photo:before{background:none}body[data-layout=dual] .photo:after{background:linear-gradient(to bottom,transparent 80%,rgba(245,240,231,.94) 100%)}}

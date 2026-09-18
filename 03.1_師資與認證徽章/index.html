@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>PD Pilates｜專業師資・精品器械・國際認證</title>
+  <style>
+    :root{--ink:#34302e;--brown:#8f6f5b;--muted:#866f63;--line:#d9c8bd;--cream:#f7f0e9;--blush:#efe0d8;--paper:#fffaf6}
+    *{box-sizing:border-box} html{background:#ded8d2} body{margin:0;color:var(--ink);font-family:"Noto Serif TC","Songti TC","PMingLiU",serif;background:var(--cream)}
+    .page{width:min(1200px,100%);height:1500px;margin:auto;overflow:hidden;background:radial-gradient(circle at 13% 8%,#fff 0,#f8f1eb 33%,#f0dfd7 100%);position:relative}
+    .page:before,.page:after{content:"";position:absolute;border:1px solid rgba(151,112,89,.25);border-radius:50%;pointer-events:none}.page:before{width:780px;height:780px;left:-480px;top:55px}.page:after{width:900px;height:900px;right:-680px;top:670px}
+    .hero{height:720px;position:relative}.ghost{position:absolute;left:30px;top:60px;font:150px/1 Georgia,serif;color:rgba(119,91,73,.075);letter-spacing:-7px;z-index:2}
+    .photo{position:absolute;right:0;top:0;width:720px;height:720px;object-fit:cover;object-position:center;border-bottom-left-radius:170px;filter:saturate(.82) sepia(.08) brightness(1.03)}
+    .wash{position:absolute;inset:0;background:linear-gradient(90deg,rgba(250,244,238,.98) 0%,rgba(250,244,238,.80) 35%,rgba(250,244,238,.08) 70%);z-index:1}
+    .tag{position:absolute;right:53px;top:42px;z-index:3;color:#7f675a;letter-spacing:7px;font:13px Georgia,serif}.dot{display:inline-block;width:9px;height:9px;background:white;border-radius:50%;margin-left:18px}
+    .panel{position:absolute;z-index:4;left:54px;top:218px;width:620px;padding:36px 40px 38px;background:rgba(255,252,249,.86);border:1px solid rgba(255,255,255,.92);backdrop-filter:blur(8px)}
+    .eyebrow{font:15px Georgia,serif;letter-spacing:5px;color:#795d4f}.panel h1{font-weight:400;font-size:47px;line-height:1.48;letter-spacing:5px;margin:27px 0 21px}.rule{width:54px;height:1px;background:#a7816b;margin:0 0 23px}.panel p{font-size:19px;line-height:1.9;letter-spacing:2px;color:#725f56;margin:0}
+    .hero-note{position:absolute;left:55px;bottom:82px;z-index:4;color:#9a6f59;font:14px Georgia,serif;letter-spacing:4px}.hero-note:before{content:"";display:inline-block;width:65px;height:1px;background:#a9826c;vertical-align:middle;margin-right:18px}
+    .equipment{padding:24px 44px 74px;position:relative}.section-kicker{display:flex;align-items:center;gap:18px;color:#a2735d;font:16px Georgia,serif;letter-spacing:5px;margin:0 0 28px}.section-kicker:after{content:"";height:1px;background:#d1beb3;flex:1}
+    .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{min-height:545px;padding:35px 25px 27px;border:1px solid #ddcec5;background:linear-gradient(135deg,rgba(255,252,249,.88),rgba(232,210,200,.55));position:relative}.card:nth-child(2){background:rgba(239,220,211,.50)}.card:nth-child(3){background:rgba(224,205,195,.40)}
+    .num{font:44px Georgia,serif;color:#a99182;border-bottom:1px solid #d6c3b8;padding-bottom:17px}.en{font:23px/1.15 Georgia,serif;color:#5e4e46;margin:29px 0 22px;letter-spacing:1px}.zh{font-size:29px;line-height:1.48;letter-spacing:2px;margin-bottom:19px}.desc{font-size:17px;line-height:1.65;color:#795f52;letter-spacing:1px}.keywords{position:absolute;left:25px;bottom:25px;color:#b47f66;font:12px Georgia,serif;letter-spacing:1px}
+    .equipment-foot{text-align:right;color:#a16e58;font:12px Georgia,serif;letter-spacing:3px;margin-top:58px}.equipment-foot:before{content:"";display:inline-block;width:52px;height:1px;background:#b58b76;vertical-align:middle;margin-right:14px}
+    .certs{height:780px;position:relative;padding:38px 44px 28px;background:rgba(255,250,246,.68);border-top:1px solid rgba(177,139,119,.25)}
+    .cert-head{text-align:center;margin-bottom:25px}.cert-head .small{font:13px Georgia,serif;letter-spacing:6px;color:#9a725e}.cert-head h2{font-weight:400;font-size:38px;letter-spacing:8px;margin:10px 0 7px}.cert-head p{margin:0;color:#876f62;font-size:15px;letter-spacing:2px}.cert-head:after{content:"";display:block;width:60px;height:1px;background:#bb9581;margin:16px auto 0}
+    .cert-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.cert{height:245px;background:rgba(255,255,255,.78);border:1px solid #e0d1c8;padding:16px 15px 14px;display:flex;flex-direction:column;align-items:center;justify-content:space-between;text-align:center}.logo-box{height:142px;width:100%;display:flex;align-items:center;justify-content:center;background:#fff}.cert img{display:block;max-width:92%;max-height:122px;object-fit:contain}.cert h3{margin:8px 0 2px;font:16px Georgia,serif;letter-spacing:1px;color:#55443c}.cert span{font-size:11px;line-height:1.4;color:#947765;letter-spacing:.5px}.closing{text-align:center;margin-top:25px;color:#9a725f;font:12px Georgia,serif;letter-spacing:5px}
+    @media(max-width:760px){.page{width:100%}.hero{height:760px}.photo{width:100%;height:430px}.ghost{font-size:92px}.panel{left:6%;top:265px;width:88%;padding:28px}.panel h1{font-size:34px}.tag{display:none}.hero-note{bottom:30px}.cards,.cert-grid{grid-template-columns:1fr}.card{min-height:410px}.cert{height:250px}.equipment,.certs{padding-left:6%;padding-right:6%}.section-kicker{font-size:12px}}
+  </style>
+<link rel="stylesheet" href="../shared/preserve-style.css"><script src="../shared/page-bridge.js" defer></script><link rel="stylesheet" href="../shared/type-emphasis.css"><link rel="stylesheet" href="../shared/client-review-20260918.css"></head>
+<body data-layout="credentials">
+<main class="page">
+  <section class="hero">
+    <div class="ghost">SYSTEM</div><img class="photo" src="../shared/photos/teaching.jpg" alt="PD 教練引導器械動作"><div class="wash"></div>
+    <div class="tag">03 / PROFESSIONAL <span class="dot"></span></div>
+    <div class="panel"><div class="eyebrow">PROFESSIONAL GUIDANCE</div><h1>先了解妳，<br>再開始訓練。</h1><div class="rule"></div><ul class="client-checks"><li>✓ 課前<span class="key-phrase">了解身體狀態</span>及訓練目的</li><li>✓ 依照程度安排器械與動作</li><li>✓ 教練<span class="key-phrase">全程觀察與調整</span></li><li>✓ <span class="key-phrase">即時修正</span>代償與姿勢</li><li>✓ 每一次練習都有明確目的</li></ul></div>
+    <div class="hero-note">Control｜Stability｜Breathing</div>
+  </section>
+  <section class="certs">
+    <header class="cert-head"><div class="small">International Certification</div><h2>國際證照認證師資</h2><p>精準引導每一個動作細節</p></header>
+    <div class="cert-grid"><article class="cert"><div class="logo-box"><img src="../shared/certs/stott.jpg" alt="STOTT PILATES"></div><h3>STOTT PILATES</h3></article><article class="cert"><div class="logo-box"><img src="../shared/certs/basi-primary.png" alt="BASI PILATES"></div><h3>BASI PILATES</h3></article><article class="cert"><div class="logo-box"><img src="../shared/certs/balanced-body.jpg" alt="BALANCED BODY"></div><h3>BALANCED BODY</h3></article><article class="cert"><div class="logo-box"><img src="../shared/certs/polestar.jpg" alt="POLESTAR PILATES"></div><h3>POLESTAR PILATES</h3></article><article class="cert"><div class="logo-box"><img src="../shared/certs/peak-pilates.png" alt="PEAK PILATES®"></div><h3>PEAK PILATES®</h3></article><article class="cert"><div class="logo-box"><img src="../shared/certs/ace.jpg" alt="ACE"></div><h3>ACE</h3></article></div><div class="closing">PD PILATES · PRIVATE · PROFESSIONAL · PREMIUM</div>
+  </section>
+</main>
+</body>
+</html>
+
+

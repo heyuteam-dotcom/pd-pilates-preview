@@ -1,0 +1,16 @@
+/* Page 4 only: aligned editorial text blocks; original copy and photos retained. */
+body[data-layout=needs] .quadrant{container-type:inline-size}
+body[data-layout=needs] .copy-panel{display:grid;grid-template-rows:51px 118px 24px minmax(0,1fr);row-gap:15px;align-content:start}
+body[data-layout=needs] .copy-panel h2{margin:0;align-self:start;font-size:min(35px,6.83cqw);line-height:1.45;white-space:normal;text-wrap:nowrap}
+body[data-layout=needs] .pain,
+body[data-layout=needs] .solution{margin:0;font-size:min(23px,4.5cqw);line-height:1.7;letter-spacing:0;max-width:100%;align-self:start;word-break:normal;overflow-wrap:normal}
+body[data-layout=needs] .leaf{display:flex;align-items:center;gap:12px;margin:0;font-size:22px;line-height:24px;color:#ad8b72}
+body[data-layout=needs] .leaf:after{content:"";height:1px;width:66px;background:linear-gradient(90deg,rgba(163,128,101,.55),rgba(163,128,101,.10))}
+body[data-layout=needs] .copy-panel h2 span{display:inline-block;white-space:nowrap}
+body[data-layout=needs] .solution{display:grid;gap:5px;color:#76573f}
+@media(max-width:760px){
+ body[data-layout=needs] .copy-panel{grid-template-rows:84px 112px 24px minmax(0,1fr);row-gap:18px}
+ body[data-layout=needs] .copy-panel h2{font-size:28px;line-height:1.5;text-wrap:balance}
+ body[data-layout=needs] .pain,
+ body[data-layout=needs] .solution{font-size:19px;line-height:1.8}
+}

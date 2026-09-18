@@ -1,0 +1,1 @@
+addEventListener('DOMContentLoaded',()=>{if(parent===window)return;document.querySelectorAll('a[href]').forEach(a=>a.target='_top');const m=document.querySelector('main');const send=()=>parent.postMessage({type:'pd-page-size',height:m.getBoundingClientRect().height},'*');new ResizeObserver(send).observe(m);document.fonts.ready.then(send);addEventListener('load',send);send()});

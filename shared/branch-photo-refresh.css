@@ -1,0 +1,17 @@
+/* 2026-09-10 branch-original-color: display the original source colors.
+   Explicitly override older page-level filters; no added exposure or warm veil.
+   Keep approved photo sources, crop positions, frames and typography unchanged. */
+body[data-layout=locations] .hero img,
+body[data-layout=locations] .main img,
+body[data-layout=locations] .hero-inset img,
+body[data-layout=taichung] .hero-photo,
+body[data-layout=taichung] .card img{filter:none}
+body[data-layout=locations] .hero img{object-position:center 48%}
+body[data-layout=locations] .card:nth-child(1) .main img{object-position:57% center}
+body[data-layout=locations] .card:nth-child(2) .main img{object-position:45% center}
+body[data-layout=locations] .card:nth-child(3) .main img{object-position:center 58%}
+body[data-layout=taichung] .hero-photo{object-position:center 45%}
+body[data-layout=locations] .hero:after,body[data-layout=taichung] .veil{background:none}
+body[data-layout=taichung] .card:nth-child(1) img{object-position:24% center}
+body[data-layout=taichung] .card:nth-child(2) img{object-position:91% center}
+body[data-layout=taichung] .card:nth-child(3) img{object-position:22% center}

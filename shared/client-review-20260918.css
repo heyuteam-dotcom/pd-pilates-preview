@@ -1,0 +1,48 @@
+/* Client PDF pages 1–7, 2026-09-18. Last-loaded, editable overrides.
+ * Preserve composition and source photos. Reading type follows Taipei page.
+ * Nicole copy, original prices and Taichung URL deliberately unchanged.
+ */
+body[data-layout],body[data-layout] .page{font-family:"Microsoft JhengHei UI","Microsoft JhengHei","Noto Sans TC",sans-serif;font-weight:500}
+body[data-layout] h1,body[data-layout] h2,body[data-layout] h3,body[data-layout] h4{font-family:inherit;font-weight:700!important}
+body[data-layout] p,body[data-layout] li{font-weight:500}
+body[data-layout] .key-phrase{font-weight:700}
+body[data-layout] .eyebrow,body[data-layout] .kicker,body[data-layout] .cert-head .small,body[data-layout] .hero-note{font-family:inherit;font-weight:600;color:#765a48}
+body[data-layout] .cta,body[data-layout] .button,body[data-layout] .line-button{font-weight:600}
+body[data-layout=home] .home-offer{gap:16px;justify-content:space-between}
+body[data-layout=home] .offer-label{font-size:32px;font-weight:700;line-height:1.45;letter-spacing:0;max-width:260px}
+body[data-layout=home] .home-offer strong{font-size:70px;font-weight:600;letter-spacing:-2px}
+body[data-layout=home] .description{color:#37312b}
+body[data-layout=locations] .copy p,body[data-layout=locations] .metro{color:#604c3e}
+body[data-layout=taichung] .label small{font-family:inherit;font-size:13px;font-weight:600;letter-spacing:0;line-height:1.35;color:#765a48}
+body[data-layout=taichung] .card-head{height:83px}
+body[data-layout=taichung] .card img{height:384px}
+body[data-layout=taichung] .panel p,body[data-layout=taichung] .intro p{color:#604c3e}
+body[data-layout=credentials] .panel{background:linear-gradient(90deg,rgba(255,252,249,.97) 0%,rgba(255,252,249,.94) 65%,rgba(255,252,249,.48) 86%,rgba(255,252,249,0) 100%);border-right-color:transparent;backdrop-filter:none}
+body[data-layout=credentials] .wash{background:linear-gradient(90deg,rgba(250,244,238,.95),rgba(250,244,238,.54) 35%,transparent 60%)}
+body[data-layout=credentials] .client-checks{font-size:25px;color:#45392f;font-weight:600;letter-spacing:0}
+body[data-layout=credentials] .client-checks li{font-weight:600}
+body[data-layout=credentials] .hero-note{font-size:19px;letter-spacing:1px}
+body[data-layout=credentials] .cert-head .small{font-size:19px;letter-spacing:2px}
+body[data-layout=credentials] .cert h3{font-family:inherit;font-size:22px;letter-spacing:0}
+body[data-layout=needs] .pain{color:#45392f}
+body[data-layout=needs] .solution{color:#594131;font-weight:600}
+body[data-layout=needs] .solution span:first-child{text-decoration:underline;text-decoration-color:#b99578;text-decoration-thickness:2px;text-underline-offset:6px;font-weight:700}
+/* Face-free detail crops. Background percentages select regions of the unchanged 2×2 source. */
+body[data-layout=needs] .quadrant:nth-of-type(1):before{background-size:409.09% 409.09%;background-position:32.353% 30.392%}
+body[data-layout=needs] .quadrant:nth-of-type(2):before{background-size:346.154% 346.154%;background-position:94.531% 28.646%}
+body[data-layout=needs] .quadrant:nth-of-type(3):before{background-size:473.684% 473.684%;background-position:34.507% 90.141%}
+body[data-layout=needs] .quadrant:nth-of-type(4):before{background-size:367.347% 367.347%;background-position:99.237% 99.237%}
+body[data-layout=dual] .intro,body[data-layout=dual] .accent{font-weight:600;color:#79573f}
+body[data-layout=dual] .copy{color:#443a32}
+body[data-layout=sop] .hero p,body[data-layout=sop] .reservation-note,body[data-layout=sop] .tip p,body[data-layout=sop] .line-copy p{color:#5e4a3d;font-weight:500}
+@media(max-width:760px){
+ body[data-layout=home] .offer-label{font-size:24px;max-width:none}
+ body[data-layout=home] .home-offer{gap:8px;justify-content:flex-start}
+ body[data-layout=home] .home-offer strong{font-size:52px}
+ body[data-layout=credentials] .client-checks{font-size:19px;line-height:1.8}
+ body[data-layout=credentials] .panel{background:linear-gradient(100deg,rgba(255,252,249,.96),rgba(255,252,249,.87) 70%,rgba(255,252,249,.64))}
+ body[data-layout=credentials] .hero-note{font-size:15px;letter-spacing:0}
+ body[data-layout=credentials] .hero-note:before{width:18px;margin-right:7px}
+ body[data-layout=credentials] .cert-head .small{font-size:16px;letter-spacing:.5px}
+ body[data-layout=credentials] .cert h3{font-size:16px}
+}

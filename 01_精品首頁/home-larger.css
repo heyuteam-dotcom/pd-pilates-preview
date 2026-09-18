@@ -1,0 +1,36 @@
+/* Homepage only: modestly larger type/surfaces and a 36px rightward photo shift. */
+body[data-layout=home] .photo{left:366px}
+body[data-layout=home] .brand-initials{font-size:46px}
+body[data-layout=home] .brand-name{font-size:17px}
+body[data-layout=home] .ghost{font-size:340px}
+body[data-layout=home] .panel{width:660px;padding:40px 40px 41px}
+body[data-layout=home] .panel::before,body[data-layout=home] .panel::after{width:57px;height:57px}
+body[data-layout=home] .kicker{font-size:16px;line-height:25px}
+body[data-layout=home] .panel h1{font-size:64px;line-height:1.43;margin:28px 0 21px}
+body[data-layout=home] .headline-times{font-size:44px}
+body[data-layout=home] .headline-secondary{background:linear-gradient(transparent 66%,rgba(219,192,170,.36) 66%,rgba(219,192,170,.36) 96%,transparent 96%)}
+body[data-layout=home] .description{font-size:28px;line-height:1.75}
+body[data-layout=home] .experience-detail{padding:22px 16px;margin-top:28px;background:linear-gradient(100deg,rgba(239,222,207,.43),rgba(255,255,255,.25))}
+body[data-layout=home] .home-offer{font-size:29px}
+body[data-layout=home] .home-offer strong{font-size:82px}
+body[data-layout=home] .currency{font-size:40px}
+body[data-layout=home] .home-includes{font-size:26px;line-height:1.7}
+body[data-layout=home] .cta{font-size:31px;height:82px;margin-top:26px;padding-inline:30px}
+body[data-layout=home] .cta span{font-size:35px;width:64px;height:35px}
+@media(max-width:760px){
+ body[data-layout=home] .photo{left:10px;mask-image:linear-gradient(90deg,transparent,#000 24px),linear-gradient(180deg,#000 70%,transparent);mask-composite:intersect}
+ body[data-layout=home] .brand-initials{font-size:34px}body[data-layout=home] .brand-name{font-size:12px}
+ body[data-layout=home] .ghost{font-size:111px}
+ body[data-layout=home] .panel{width:calc(100% - 28px);margin-inline:14px;padding:31px 24px 32px}
+ body[data-layout=home] .panel::before,body[data-layout=home] .panel::after{width:37px;height:37px}
+ body[data-layout=home] .kicker{font-size:12px;line-height:21px;letter-spacing:1.4px}
+ body[data-layout=home] .panel h1{font-size:38px;line-height:1.5;letter-spacing:.5px;margin:24px 0 20px}
+ body[data-layout=home] .headline-times{font-size:28px}
+ body[data-layout=home] .description{font-size:21px;line-height:1.8;letter-spacing:0}
+ body[data-layout=home] .experience-detail{margin-top:23px;padding:18px 10px}
+ body[data-layout=home] .home-offer{font-size:22px}body[data-layout=home] .home-offer strong{font-size:52px}
+ body[data-layout=home] .currency{font-size:27px}
+ body[data-layout=home] .home-includes{font-size:21px;line-height:1.7;letter-spacing:0}
+ body[data-layout=home] .cta{font-size:26px;height:70px;letter-spacing:0;padding-inline:16px;margin-top:24px;gap:6px;white-space:nowrap}
+ body[data-layout=home] .cta span{font-size:30px;width:36px;height:30px;padding-left:8px;flex:none}
+}

@@ -1,0 +1,131 @@
+/* Seven approved pages: larger editable type and restrained editorial emphasis. */
+:root{--pd-key:#79573f;--pd-key-line:#c2a28a;--pd-key-wash:rgba(219,192,170,.32)}
+body[data-layout] .key-phrase{font-weight:600;color:var(--pd-key);background:linear-gradient(transparent 69%,var(--pd-key-wash) 69%,var(--pd-key-wash) 94%,transparent 94%);box-decoration-break:clone;-webkit-box-decoration-break:clone}
+body[data-layout] .cta,body[data-layout] .button,body[data-layout] .line-button{box-shadow:inset 0 0 0 1px rgba(255,255,255,.30)}
+/* 1 — keep the portrait and panel position, enlarge the reading hierarchy. */
+body[data-layout=home] .brand-initials{font-size:42px}
+body[data-layout=home] .brand-name{font-size:15px}
+body[data-layout=home] .kicker{font-size:14px;letter-spacing:3px}
+body[data-layout=home] .panel h1{font-size:56px;letter-spacing:3px;line-height:1.43;margin:25px 0 18px}
+body[data-layout=home] .headline-times{font-size:39px}
+body[data-layout=home] .headline-secondary{background:linear-gradient(transparent 77%,rgba(219,192,170,.36) 77%,rgba(219,192,170,.36) 94%,transparent 94%)}
+body[data-layout=home] .description{font-size:25px;line-height:1.75;letter-spacing:.5px}
+body[data-layout=home] .experience-detail{background:linear-gradient(100deg,rgba(239,222,207,.35),rgba(255,255,255,.2));padding:18px 12px 18px;border-color:#c4a68f}
+body[data-layout=home] .home-offer{font-size:26px}
+body[data-layout=home] .home-offer strong{font-size:74px;color:#755039}
+body[data-layout=home] .currency{font-size:35px}
+body[data-layout=home] .home-includes{font-size:23px;line-height:1.7;letter-spacing:.5px}
+body[data-layout=home] .cta{height:73px;font-size:28px;margin-top:23px}
+/* 2 — branch names and transport information are the useful focal points. */
+body[data-layout=locations] .copy{top:174px;width:540px}
+body[data-layout=locations] .copy .kicker{font-size:14px}
+body[data-layout=locations] .copy h1{font-size:51px;line-height:1.4;letter-spacing:3px;font-weight:500}
+body[data-layout=locations] .copy p{font-size:22px;line-height:1.7;letter-spacing:.5px}
+body[data-layout=locations] .vertical{font-size:12px}
+body[data-layout=locations] .intro{padding-top:29px}
+body[data-layout=locations] .intro .en{font-size:15px}
+body[data-layout=locations] .intro h2{font-size:44px;letter-spacing:4px}
+body[data-layout=locations] .intro p{font-size:23px;letter-spacing:.5px;line-height:1.45;display:inline-block;padding:6px 18px;margin:11px auto 0;border-block:1px solid rgba(164,128,98,.25);background:rgba(255,250,243,.56)}
+body[data-layout=locations] .head{height:83px;gap:14px}
+body[data-layout=locations] .num{font-size:52px}
+body[data-layout=locations] .name em{font-size:13px;letter-spacing:3px}
+body[data-layout=locations] .name strong{font-size:28px;letter-spacing:2px;color:#76563e;font-weight:600}
+body[data-layout=locations] .main{height:364px}
+body[data-layout=locations] .metro{font-size:22px;line-height:1.55;letter-spacing:0;margin-top:17px;border-left:2px solid #b18b6e;padding-left:10px}
+body[data-layout=locations] .footer strong{font-size:23px}
+body[data-layout=locations] .footer p{font-size:17px;line-height:1.65}
+body[data-layout=locations] .footer .cta{font-size:21px;background:rgba(126,88,62,.16)}
+/* 2.1 — match the branch typography while retaining all photo frames. */
+body[data-layout=taichung] .panel{top:185px}
+body[data-layout=taichung] .eyebrow{font-size:15px;letter-spacing:4px}
+body[data-layout=taichung] .panel h1{font-size:43px;line-height:1.5;letter-spacing:3px}
+body[data-layout=taichung] .panel p{font-size:19px;line-height:1.85;letter-spacing:1px}
+body[data-layout=taichung] .intro{padding-top:30px}
+body[data-layout=taichung] .intro .en{font-size:15px}
+body[data-layout=taichung] .intro h2{font-size:41px;letter-spacing:4px}
+body[data-layout=taichung] .intro p{font-size:17px;letter-spacing:1px;line-height:1.6}
+body[data-layout=taichung] .card-head{height:75px;gap:11px}
+body[data-layout=taichung] .num{font-size:41px}
+body[data-layout=taichung] .label small{font-size:12px;letter-spacing:2px}
+body[data-layout=taichung] .label h3{font-size:24px;letter-spacing:1px;color:#76563e;font-weight:600}
+body[data-layout=taichung] .card img{height:392px}
+body[data-layout=taichung] .footer h4{font-size:23px}
+body[data-layout=taichung] .footer p{font-size:15px;line-height:1.6;letter-spacing:.5px}
+body[data-layout=taichung] .button{font-size:18px;width:270px;background:rgba(126,88,62,.14)}
+/* 3.1 — stronger process labels, not new certificate claims. */
+body[data-layout=credentials] .tag{font-size:15px;letter-spacing:5px}
+body[data-layout=credentials] .eyebrow{font-size:17px;letter-spacing:4px}
+body[data-layout=credentials] .panel h1{font-size:51px;line-height:1.4;letter-spacing:4px}
+body[data-layout=credentials] .client-checks{font-size:24px;line-height:1.6;letter-spacing:.5px}
+body[data-layout=credentials] .client-checks li{padding:4px 0 4px 9px;margin:4px 0;border-left:2px solid rgba(170,134,104,.40)}
+body[data-layout=credentials] .hero-note{font-size:16px;letter-spacing:3px}
+body[data-layout=credentials] .cert-head .small{font-size:15px;letter-spacing:4px}
+body[data-layout=credentials] .cert-head h2{font-size:42px;letter-spacing:3px;font-weight:600;color:#735139}
+body[data-layout=credentials] .cert-head p{font-size:24px;letter-spacing:1px}
+body[data-layout=credentials] .cert{border-color:#ccb39f;background:rgba(255,255,255,.86)}
+body[data-layout=credentials] .cert img{max-height:155px;max-width:97%}
+body[data-layout=credentials] .cert h3{font-size:24px;letter-spacing:.5px;line-height:1.2}
+body[data-layout=credentials] .closing{font-size:14px;letter-spacing:3px;margin-top:17px}
+/* 4 — clearer need headings; all original wording and images retained. */
+body[data-layout=needs] .hero h1{font-size:46px;letter-spacing:2px;line-height:1.25}
+body[data-layout=needs] .hero p{font-size:23px;letter-spacing:1px}
+body[data-layout=needs] .hero:after{margin:22px auto 25px}
+body[data-layout=needs] .copy-panel h2{font-size:35px;font-weight:600;line-height:1.45;letter-spacing:0;padding-left:11px;border-left:3px solid #b99478;color:#78543b;margin:0 0 23px}
+body[data-layout=needs] .copy-panel:after{display:none}
+body[data-layout=needs] .pain{font-size:23px;line-height:1.65;letter-spacing:0;max-width:296px;color:#463b32}
+body[data-layout=needs] .solution{font-size:23px;line-height:1.65;max-width:296px;color:#65503e}
+body[data-layout=needs] .leaf{font-size:22px;margin:18px 0 9px}
+body[data-layout=needs] .footer p{font-size:24px;line-height:1.65}
+body[data-layout=needs] .footer strong{font-size:18px}
+/* 5 — one clear time promise and two distinct, spacious price strips. */
+body[data-layout=dual] .eyebrow{font-size:20px}
+body[data-layout=dual] .intro{font-size:51px;letter-spacing:3px}
+body[data-layout=dual] .hero h1{font-size:72px;letter-spacing:4px;line-height:1.25;margin-top:17px}
+body[data-layout=dual] .photo{top:311px}
+body[data-layout=dual] .subtitle{font-size:23px;letter-spacing:1px;gap:24px}
+body[data-layout=dual] .items{margin-top:380px}
+body[data-layout=dual] .num{font-size:55px}
+body[data-layout=dual] .item h2{font-size:27px;letter-spacing:1px}
+body[data-layout=dual] .copy{font-size:24px;line-height:1.5;letter-spacing:.4px}
+body[data-layout=dual] .accent{font-size:25px;letter-spacing:.5px}
+body[data-layout=dual] .item:first-child .accent{font-size:22px;padding:4px 12px;background:rgba(255,250,242,.6);border-color:#c2a28a}
+body[data-layout=dual] .item:last-child .accent{padding:5px 9px;background:rgba(221,193,170,.34);border-bottom:1px solid #b38c70;color:#795337}
+body[data-layout=dual] .booking{margin-left:24px;margin-right:24px;padding:15px 26px;min-height:112px;grid-template-columns:1fr 1.3fr 1.35fr;border-color:#cbb5a3;background:rgba(255,253,247,.67);box-shadow:inset 3px 0 0 #c9a388}
+body[data-layout=dual] .plan-name,body[data-layout=dual] .premium-booking small{font-size:27px;letter-spacing:1px;line-height:1.5;color:#674c3b}
+body[data-layout=dual] .booking strong{font-size:69px;color:#765036}
+body[data-layout=dual] .cta{font-size:26px;height:64px;letter-spacing:1px;background:#b48b72}
+body[data-layout=dual] .premium-booking{margin-top:30px;background:rgba(233,214,199,.58);box-shadow:inset 3px 0 0 #a67756}
+body[data-layout=dual] .premium-booking .cta{background:#9d7058}
+/* 6 — stronger step headings, larger reminders, separated icon slots. */
+body[data-layout=sop] .wrap{padding-top:65px}
+body[data-layout=sop] .eyebrow{font-size:20px!important}
+body[data-layout=sop] .hero h1{font-size:84px;letter-spacing:12px}
+body[data-layout=sop] .hero h2{font-size:48px;letter-spacing:9px}
+body[data-layout=sop] .hero p{font-size:23px;letter-spacing:1.5px}
+body[data-layout=sop] .steps{margin-top:50px}
+body[data-layout=sop] .num{font-size:33px;background:linear-gradient(90deg,#9f7566,#bb9684)}
+body[data-layout=sop] .circle h3{font-size:28px;letter-spacing:.5px;font-weight:600;color:#765039;padding:0 5px 7px;border-bottom:1px solid #c2a58c}
+body[data-layout=sop] .circle p{font-size:21px;letter-spacing:0;line-height:1.6}
+body[data-layout=sop] .reservation-note{font-size:21px;line-height:1.65;letter-spacing:.5px}
+body[data-layout=sop] .swoop em{font-size:38px}
+body[data-layout=sop] .tips-title{font-size:26px;min-width:225px;background:linear-gradient(90deg,#9f7566,#bb9684)}
+body[data-layout=sop] .tip h3{font-size:24px;font-weight:600;color:#79573f;letter-spacing:0}
+body[data-layout=sop] .tip p{font-size:19px;line-height:1.65;letter-spacing:0}
+body[data-layout=sop] .tip{padding:0 12px}
+body[data-layout=sop] .line-copy h3{font-size:24px;letter-spacing:1px}
+body[data-layout=sop] .line-copy p{font-size:19px;line-height:1.55;letter-spacing:0}
+body[data-layout=sop] .line-bubble{font-size:22px}
+body[data-layout=sop] .line-button{font-size:24px;letter-spacing:1px;background:#a67b65}
+@media(max-width:760px){
+ body[data-layout=dual] .photo{top:auto}
+ body[data-layout=home] .brand-initials{font-size:31px}body[data-layout=home] .brand-name{font-size:11px}
+ body[data-layout=home] .kicker{font-size:11px;letter-spacing:1.5px}body[data-layout=home] .panel h1{font-size:34px;letter-spacing:.5px;margin:22px 0 18px}body[data-layout=home] .headline-times{font-size:25px}
+ body[data-layout=home] .description{font-size:19px;line-height:1.85;letter-spacing:0}body[data-layout=home] .home-offer{font-size:20px}body[data-layout=home] .home-offer strong{font-size:46px}body[data-layout=home] .currency{font-size:24px}body[data-layout=home] .home-includes{font-size:19px;letter-spacing:0}body[data-layout=home] .experience-detail{padding:15px 9px}body[data-layout=home] .cta{font-size:23px;height:62px;letter-spacing:0;padding:0 15px}
+ body[data-layout=locations] .copy{top:160px;left:6%;width:88%;padding:24px}body[data-layout=locations] .copy h1{font-size:37px;letter-spacing:1px}body[data-layout=locations] .copy p{font-size:19px;letter-spacing:0}body[data-layout=locations] .copy .kicker{font-size:14px;letter-spacing:2px}body[data-layout=locations] .intro{padding:30px 18px}body[data-layout=locations] .intro h2{font-size:34px;letter-spacing:2px}body[data-layout=locations] .intro p{font-size:19px;padding:8px 10px}body[data-layout=locations] .main{height:360px}body[data-layout=locations] .metro{font-size:20px}body[data-layout=locations] .footer strong{font-size:22px}body[data-layout=locations] .footer p{font-size:17px}body[data-layout=locations] .footer .cta{font-size:21px}
+ body[data-layout=taichung] .panel{top:177px}body[data-layout=taichung] .eyebrow{font-size:13px;letter-spacing:2px}body[data-layout=taichung] .panel h1{font-size:33px;letter-spacing:1px}body[data-layout=taichung] .panel p{font-size:19px;letter-spacing:0}body[data-layout=taichung] .intro h2{font-size:39px}body[data-layout=taichung] .intro p{font-size:19px;padding:0 22px}body[data-layout=taichung] .label h3{font-size:25px}body[data-layout=taichung] .footer p{font-size:18px}
+ body[data-layout=credentials] .eyebrow{font-size:13px;letter-spacing:1.5px}body[data-layout=credentials] .panel h1{font-size:37px;letter-spacing:1px}body[data-layout=credentials] .client-checks{font-size:19px;line-height:1.75;letter-spacing:0}body[data-layout=credentials] .client-checks li{padding:4px 0 4px 8px;margin:5px 0}body[data-layout=credentials] .hero-note{font-size:11px;letter-spacing:1px}body[data-layout=credentials] .cert-head .small{font-size:12px;letter-spacing:1.5px}body[data-layout=credentials] .cert-head h2{font-size:31px;letter-spacing:1px}body[data-layout=credentials] .cert-head p{font-size:20px}body[data-layout=credentials] .cert{height:208px;padding:14px 10px}body[data-layout=credentials] .cert img{max-height:119px}body[data-layout=credentials] .cert h3{font-size:17px;letter-spacing:0;line-height:1.3}body[data-layout=credentials] .closing{font-size:11px;letter-spacing:1.5px}
+ body[data-layout=needs] .hero h1{font-size:32px;line-height:1.55;letter-spacing:0}body[data-layout=needs] .hero p{font-size:18px;line-height:1.8}body[data-layout=needs] .quadrant{height:680px}body[data-layout=needs] .copy-panel{width:74%;padding:27px 18px}body[data-layout=needs] .copy-panel h2{font-size:28px;line-height:1.5;margin-bottom:24px;padding-left:8px;white-space:normal;text-wrap:balance}body[data-layout=needs] .pain,body[data-layout=needs] .solution{font-size:19px;line-height:1.8}body[data-layout=needs] .footer p{font-size:20px;line-height:1.85}body[data-layout=needs] .footer strong{font-size:18px}
+ body[data-layout=dual] .eyebrow{font-size:15px;letter-spacing:1.5px}body[data-layout=dual] .intro{font-size:32px;letter-spacing:1px}body[data-layout=dual] .hero h1{font-size:38px;letter-spacing:.5px;line-height:1.5}body[data-layout=dual] .subtitle{font-size:19px;letter-spacing:0;gap:10px}body[data-layout=dual] .items{margin-top:-58px}body[data-layout=dual] .item h2{font-size:26px;letter-spacing:.5px}body[data-layout=dual] .copy{font-size:22px;letter-spacing:0;line-height:1.65}body[data-layout=dual] .accent{font-size:25px;letter-spacing:0}body[data-layout=dual] .booking{margin-left:0;margin-right:0;padding:23px 19px;grid-template-columns:1fr;gap:17px}body[data-layout=dual] .booking strong{font-size:64px}body[data-layout=dual] .plan-name,body[data-layout=dual] .premium-booking small{font-size:27px;letter-spacing:.5px}body[data-layout=dual] .cta{font-size:24px;letter-spacing:0}body[data-layout=dual] .premium-booking{margin-top:30px}
+ body[data-layout=sop] .wrap{padding:52px 18px 34px}body[data-layout=sop] .eyebrow{font-size:15px!important;letter-spacing:1.5px!important}body[data-layout=sop] .hero h1{font-size:53px;letter-spacing:4px}body[data-layout=sop] .hero h2{font-size:34px;letter-spacing:4px}body[data-layout=sop] .hero p{font-size:19px;line-height:1.8;letter-spacing:.5px}body[data-layout=sop] .circle h3{font-size:28px}body[data-layout=sop] .circle p{font-size:20px}body[data-layout=sop] .reservation-note{font-size:19px;line-height:1.8}body[data-layout=sop] .swoop em{font-size:24px}body[data-layout=sop] .tips-title{font-size:25px;min-width:220px;padding:10px 24px}body[data-layout=sop] .tip{padding:24px 10px}body[data-layout=sop] .tip h3{font-size:26px}body[data-layout=sop] .tip p{font-size:20px}body[data-layout=sop] .line-copy h3{font-size:26px}body[data-layout=sop] .line-copy p{font-size:19px}body[data-layout=sop] .line-button{font-size:22px;letter-spacing:0}
+}
+@media(max-width:350px){body[data-layout=dual] .booking{grid-template-columns:minmax(0,1fr)}body[data-layout=dual] .booking strong{min-width:0;margin-inline:-17px;letter-spacing:-1px}}

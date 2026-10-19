@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded',()=>{
 const params=new URLSearchParams(location.search);if(params.get('export')==='1')document.body.classList.add('export');
 const config=window.PD_CONFIG||{checkoutUrls:{},lineUrls:{}};
 const branches={xinyi:'信義店',zhongxiao:'忠孝店',yongkang:'永康店'};
-const plans={trial:{name:'單次體驗',price:'599',detail:'新客60分鐘體驗，包含身體評估、InBody 與40分鐘完整一對一課程。'},premium:{name:'深度4堂體驗',price:'7,888',detail:'4堂一對一課程，每堂50分鐘，6週內彈性安排。'}};
+const plans={trial:{name:'初次體驗',price:'599',detail:'初次體驗價 NT$599（原價 NT$2,600）。新客60分鐘體驗，包含身體評估、InBody 與40分鐘完整一對一課程。取消改期相關規定請見 Q&A。'},premium:{name:'深度4堂體驗',price:'7,888',detail:'深度體驗4堂 NT$7,888（原價 NT$10,400）。4堂一對一課程，每堂50分鐘，限45天內使用完畢。'}};
 const validUrl=s=>{try{const u=new URL(s);return u.protocol==='https:'}catch{return false}};
 const branch=document.querySelector('#branch'),plan=document.querySelector('#plan');
 if(branch&&plan){if(branches[params.get('branch')])branch.value=params.get('branch');if(plans[params.get('plan')])plan.value=params.get('plan');

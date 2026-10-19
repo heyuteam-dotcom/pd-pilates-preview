@@ -1,0 +1,49 @@
+/* Client slides 1–8, 2026-10-19. Scoped changes; original assets are immutable. */
+body[data-layout=locations] .branch-style{margin:14px 0 6px;color:#79573f;font-size:24px;line-height:1.4;font-weight:700;letter-spacing:1px}
+body[data-layout=locations] .metro{margin-top:6px}
+/* Optical leveling is display-only. Keep each store's visual signature in view. */
+body[data-layout=locations] .card:nth-child(1) .main img{object-position:74% center;transform:rotate(-.2deg) scale(1.01)}
+body[data-layout=locations] .card:nth-child(2) .main img{object-position:61% center;transform:rotate(.25deg) scale(1.01)}
+body[data-layout=locations] .card:nth-child(3) .main img{object-position:50% center;transform:rotate(.2deg) scale(1.01)}
+body[data-layout=taichung] .card:nth-child(1) img{object-position:60% center}
+body[data-layout=taichung] .card:nth-child(2) img{object-position:50% center}
+body[data-layout=taichung] .card:nth-child(3) img{object-position:91% center}
+/* One continuous wash instead of a visibly rectangular text panel. */
+body[data-layout=credentials] .hero{background:#faf4ee}
+body[data-layout=credentials] .photo{width:720px;height:755px;object-position:center 29%;border-radius:0;filter:none;mask-image:linear-gradient(90deg,transparent,#000 21%),linear-gradient(180deg,#000 79%,transparent);mask-composite:intersect}
+body[data-layout=credentials] .wash{background:linear-gradient(90deg,#faf4ee 0%,rgba(250,244,238,.98) 31%,rgba(250,244,238,.86) 44%,rgba(250,244,238,.35) 56%,transparent 68%)}
+body[data-layout=credentials] .panel{background:none;border:0;box-shadow:none;backdrop-filter:none;-webkit-backdrop-filter:none}
+body[data-layout=needs] .hero p{line-height:1.7;text-wrap:balance}
+body[data-layout=dual] .intro{font-size:45px;letter-spacing:1px;display:flex;align-items:baseline;justify-content:center;gap:18px;flex-wrap:wrap}
+body[data-layout=dual] .hero-original{font-size:23px;color:#7e6a5c;letter-spacing:0;font-weight:500;white-space:nowrap}
+body[data-layout=dual] .price-stack{display:flex;flex-direction:column;align-items:center;gap:8px;min-width:0}
+body[data-layout=dual] .booking{min-height:126px;grid-template-columns:1.05fr 1.35fr 1.35fr;gap:14px;padding:15px 22px}
+body[data-layout=dual] .booking strong{font-size:61px;white-space:nowrap;letter-spacing:-1px;line-height:1.1}
+body[data-layout=dual] .original-price{font-size:21px;color:#7b6555;line-height:1.3;font-family:inherit;letter-spacing:0}
+body[data-layout=dual] s{text-decoration-thickness:1px;text-decoration-color:#96775f}
+body[data-layout=dual] .premium-booking .validity{font-family:inherit;font-size:18px;line-height:1.65;letter-spacing:0;color:#6f5747;white-space:nowrap;margin-top:5px}
+body[data-layout=dual] .policy-link{text-align:right;margin:11px 32px 0;font-size:19px;line-height:1.6;position:relative;z-index:4;color:#73533e}
+body[data-layout=dual] .policy-link a{border-bottom:1px solid #bda28e;padding-bottom:3px}
+body[data-layout=dual] .premium-booking{margin-top:24px}
+@media(min-width:761px){body[data-layout=dual] .experience{padding-bottom:20px}}
+/* Feather the hero photo at every edge without reprocessing the source. */
+body[data-layout=dual] .photo{background:transparent;mask-image:linear-gradient(180deg,transparent,#000 8%,#000 76%,transparent)}
+body[data-layout=sop] .line-button{font-size:23px;letter-spacing:0}
+@media(max-width:760px){
+ body[data-layout=locations] .branch-style{font-size:24px;margin-top:16px}
+ body[data-layout=locations] .main{height:auto;aspect-ratio:4/3}
+ body[data-layout=locations] .main img{object-fit:cover}
+ body[data-layout=credentials] .hero{padding-top:390px}
+ body[data-layout=credentials] .photo{width:100%;height:530px;object-position:50% 26%;mask-image:linear-gradient(180deg,#000 63%,transparent);mask-composite:add}
+ body[data-layout=credentials] .wash{background:linear-gradient(180deg,transparent 290px,rgba(250,244,238,.55) 380px,#faf4ee 520px)}
+ body[data-layout=credentials] .panel{background:none;border:0}
+ body[data-layout=dual] .intro{font-size:31px;gap:4px 12px;line-height:1.5}
+ body[data-layout=dual] .hero-original{font-size:20px}
+ body[data-layout=dual] .booking{grid-template-columns:minmax(0,1fr);gap:17px;padding:23px 19px}
+ body[data-layout=dual] .booking strong{font-size:60px;margin:0}
+ body[data-layout=dual] .original-price{font-size:21px}
+ body[data-layout=dual] .premium-booking .validity{font-size:19px}
+ body[data-layout=dual] .policy-link{font-size:18px;margin:14px 5px 0;text-align:center}
+ body[data-layout=sop] .line-button{font-size:21px}
+}
+@media(max-width:350px){body[data-layout=dual] .booking strong{font-size:53px}body[data-layout=sop] .line-button{font-size:19px}body[data-layout=taichung] .panel h1{font-size:30px;letter-spacing:0}}

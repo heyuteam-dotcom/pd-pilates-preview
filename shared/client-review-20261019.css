@@ -1,13 +1,14 @@
 /* Client slides 1–8, 2026-10-19. Scoped changes; original assets are immutable. */
-/* 2026-10-29: translucent branch hero panels; text opacity and layout stay unchanged. */
+/* 2026-10-29 local preview: home and both branch panels share a 60% cream surface; text and layout stay unchanged. */
+body[data-layout=home] .panel,
 body[data-layout=locations] .copy,
-body[data-layout=taichung] .panel{background:rgba(255,252,248,.55);backdrop-filter:blur(3px);-webkit-backdrop-filter:blur(3px)}
+body[data-layout=taichung] .panel{background:rgba(255,253,250,.60);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px)}
 body[data-layout=locations] .branch-style{margin:14px 0 6px;color:#79573f;font-size:24px;line-height:1.4;font-weight:700;letter-spacing:1px}
 body[data-layout=locations] .metro{margin-top:6px}
 /* Optical leveling is display-only. Keep each store's visual signature in view. */
-body[data-layout=locations] .card:nth-child(1) .main img{object-position:74% center;transform:rotate(-.2deg) scale(1.01)}
-body[data-layout=locations] .card:nth-child(2) .main img{object-position:61% center;transform:rotate(.25deg) scale(1.01)}
-body[data-layout=locations] .card:nth-child(3) .main img{object-position:50% center;transform:rotate(.2deg) scale(1.01)}
+body[data-layout=locations] .card[data-branch=xinyi] .main img{object-position:74% center;transform:rotate(-.2deg) scale(1.01)}
+body[data-layout=locations] .card[data-branch=zhongxiao] .main img{object-position:61% center;transform:rotate(.25deg) scale(1.01)}
+body[data-layout=locations] .card[data-branch=yongkang] .main img{object-position:50% center;transform:rotate(.2deg) scale(1.01)}
 body[data-layout=taichung] .card:nth-child(1) img{object-position:60% center}
 body[data-layout=taichung] .card:nth-child(2) img{object-position:50% center}
 body[data-layout=taichung] .card:nth-child(3) img{object-position:91% center}

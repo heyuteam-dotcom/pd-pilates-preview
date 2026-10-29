@@ -1,4 +1,7 @@
 /* Client slides 1–8, 2026-10-19. Scoped changes; original assets are immutable. */
+/* 2026-10-29: translucent branch hero panels; text opacity and layout stay unchanged. */
+body[data-layout=locations] .copy,
+body[data-layout=taichung] .panel{background:rgba(255,252,248,.55);backdrop-filter:blur(3px);-webkit-backdrop-filter:blur(3px)}
 body[data-layout=locations] .branch-style{margin:14px 0 6px;color:#79573f;font-size:24px;line-height:1.4;font-weight:700;letter-spacing:1px}
 body[data-layout=locations] .metro{margin-top:6px}
 /* Optical leveling is display-only. Keep each store's visual signature in view. */
